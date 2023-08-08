@@ -39,13 +39,10 @@ if usr == username1 and psw == password1:
                         print("Found 3 match(es) to A9s2(*#+_-).")
                         selectone = input("Please select a match:")
                         if selectone == "1":
-                            selectone = int(selectone)
                             print("Match " + selectone + ": s0d'1uM")
                         elif selectone == "2":
-                            selectone = int(selectone)
                             print("Match " + selectone + ": ad8ch0r1ne")
                         elif selectone == "3":
-                            selectone = int(selectone)
                             print("Match " + selectone + ": s812a;]^#")
                         else:
                             print("Unable to find int in reply.")
