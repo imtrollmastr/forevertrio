@@ -5,11 +5,12 @@ usr = input("State your username: ")
 psw = input("Enter your password: ")
 
 # Username and password database
-username1 = "localadmin"
-password1 = "Q%$1NIs0-#"
+account1 = ["admin","Q$a#%m"]
+username = 0
+password = 1
 
 # Command input start
-if usr == username1 and psw == password1:
+if usr == account1[username] and psw == account1[password]:
     print("TaskForce X Authentication completed, please enter your command")
     i = 0
     while i <100:
